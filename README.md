@@ -45,6 +45,8 @@ Example portion of output:
 
 ## How to get Started (instructions only for Mac OS X)
 
+> If you are interested, please use script in an environment under your control and at your own risk.
+
 1. Install Metasploit
    - https://docs.metasploit.com/docs/using-metasploit/getting-started/nightly-installers.html#installing-metasploit-on-linux--macos
 2. Install Nmap
@@ -63,5 +65,3 @@ Example portion of output:
    - `git clone https://github.com/misakitanabe/mastery_extension.git`
 6. Run script
    - `msfconsole -r find_exploits.rc [TARGET_IP]`
-
-> If you are interested, please use script in an environment under your control and at your own risk.
