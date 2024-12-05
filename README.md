@@ -34,7 +34,6 @@ My resource script aims to automate the first step outlined in the background, "
 Example portion of output:
 
 ```
-
 [*] Trying to find exploit for vuln: 'cpe:/a:apache:http_server:2.2.8', port: '192.168.64.4:80', service: 'http'
 [*]     Found exploit module multi/http/apache_normalize_path_rce for CVE: https://nvd.nist.gov/vuln/detail/CVE-2021-41773
 [*]
@@ -61,4 +60,8 @@ Example portion of output:
      - Output should say: "Connected to msf. Connection type: postgresql"
    - `exit`
 5. In normal terminal, clone repo
-   - `git clone `
+   - `git clone https://github.com/misakitanabe/mastery_extension.git`
+6. Run script
+   - `msfconsole -r find_exploits.rc [TARGET_IP]`
+
+> If you are interested, please use script in an environment under your control and at your own risk.
