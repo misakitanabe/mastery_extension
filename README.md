@@ -148,6 +148,9 @@ My resource script aims to automate the first step outlined in the background, "
 
    - Login to Metasploitable with user: msfadmin, pass: msfadmin
    - `ifconfig`
+   - The address "192.168.64.4" is the target IP we will be using to pass in to the script. Ensure you replace it with your Metasploitable's IP
+
+    <img src="image.png" alt="alt text" width="600"/>
 
 8. Run script
    - `msfconsole -r find_exploits.rc [TARGET_IP]`
